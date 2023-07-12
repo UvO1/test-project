@@ -1,0 +1,16 @@
+.area{
+    position: relative;
+    height: calc(100vh - 56px - 86px);
+    min-height: 900px;
+    min-width: calc(320px - 48px);
+    padding: 56px 86px 90px 86px;
+    background-color: #21354B;
+    bottom: 0;
+}
+
+@media screen and (max-width: 570px) {
+    .area{
+        padding: 24px;
+        height: calc(100vh - 48px);
+    }
+}

@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'GHEA Mariam';
+	src: url('../src/assets/fonts/GHEAMariam.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+h1{
+	margin: 0;
+}
+.title{
+    font-family: 'GHEA Mariam';
+    color: #EEEBE6;
+	font-size: 66px;
+	text-transform: uppercase;
+	line-height: 110%;
+	font-weight: 400;
+	width: 10em;
+}
+
+@media screen and (max-width: 570px) {
+	.title{
+		font-size: 46px;
+		width: auto;
+	}
+}
